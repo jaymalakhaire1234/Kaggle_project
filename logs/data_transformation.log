@@ -1,0 +1,15 @@
+INFO:04:Jan:25 00:42:41:root:dataset read successfully
+INFO:04:Jan:25 00:42:41:root:ship Mode column value ['Not Available', 'unknown'] replace with NAN
+INFO:04:Jan:25 00:42:41:root:making column name in lower case
+INFO:04:Jan:25 00:42:41:root:replace space in col name with _
+INFO:04:Jan:25 00:42:41:root:new discount column is derived
+INFO:04:Jan:25 00:42:41:root:new sale_price column is derived
+INFO:04:Jan:25 00:42:41:root:new profit column is derived
+INFO:04:Jan:25 00:42:41:root:changing data type of order_date column from object to datetime
+INFO:04:Jan:25 00:42:41:root:dropping ['list_price','cost_price','discount_percent'] columns
+INFO:04:Jan:25 00:42:41:root:adding new column last_updated
+INFO:04:Jan:25 00:42:42:root:connecting to sql_server_database
+INFO:04:Jan:25 00:43:16:root:Data loaded into Sql server successfully using df.to_sql method
+INFO:04:Jan:25 00:43:16:root:getting gmail credential from config
+INFO:04:Jan:25 00:43:16:root:format data migration success email body
+INFO:04:Jan:25 00:43:21:root:Email sent successfully.
